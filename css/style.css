@@ -1,0 +1,359 @@
+﻿/*TAGS*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {    
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;    
+}
+
+li {
+    list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+h3 {
+    padding-top: 120px;
+    font-size: 3.6em;
+    font-weight: 400;
+    line-height: 40px;
+    color: #666666;
+}
+
+img {
+    vertical-align: middle;
+}
+
+a, a:hover, a:visited, a:active {    
+    padding: 0 5px;
+    text-decoration: none;
+    color: white;
+}
+
+/*Header*/
+header {   
+    height: 100%;
+    background:#FFFFFF/*1F212C*/ url(../images/bg-header.jpg) no-repeat top center;
+    color: white;
+}
+header ul li {
+    display: inline;
+    list-style: none;
+}
+header h1 {
+    position: relative;
+    font-size: 4.8em;
+    font-weight: 100;
+}
+header h6 {
+    position: relative;
+    margin-top: 50px;
+    font-size: 2.4em;
+    font-weight: 100;
+}
+header h6:before {
+    content: '';
+    position: absolute;
+    width: 130px;
+    height: 1px;
+    background: #7e7f80;
+    left: 43%;
+    top: -42%;
+}
+header a {
+    color: #FFFFFF;
+}
+header a:hover {
+    background: rgba(0, 0, 0, 0.50);
+}
+/*Footer*/
+footer {
+    height: 100%;
+    background: #FFFFFF url(../images/bg-footer.jpg) no-repeat top center;    
+}
+footer h3 {
+    padding-top: 175px;
+    color: #FFFFFF;
+}
+footer h3:before {
+    content: url(../images/icon-contacts.png);
+    position: absolute;
+    left: 47.5%;
+    top: 11%;
+}
+footer h4 {
+    font-size: 3.6em;
+    font-weight: 400;
+    color: #85A7F2;
+}
+footer h5 {
+    font-size: 3em;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+footer h6 {
+    padding-top: 40px;
+    font-size: 2.4em;
+    font-weight: 400;
+    color: #85A7F2;
+}
+footer p {
+    font-size: 1.8em;
+    font-weight: 400;
+    color: #5F7C9D;
+}
+
+/*CLASSES*/
+.main_container, .row, nav, li, section {
+    position: relative;
+}
+
+.main_container{
+    max-width: 970px;    
+    margin: auto;
+}
+
+.menu {
+    padding: 33px 5px;
+    font-size: 1.8em;    
+    font-weight: 300;
+}
+
+.main_text {
+    padding-top: 192px;
+    padding-bottom: 260px;
+}
+
+.contacts {
+    padding-top: 45px;
+    text-align: left;
+}
+.mail h5 {
+    padding-top: 28px;
+    padding-bottom: 5px;
+    font-size: 2.4em;
+}
+.end {
+    padding-top: 75px;
+    padding-bottom: 130px;
+}
+.end p {
+    color: #85A7F2;
+}
+
+/*About company*/
+.company {
+    padding: 85px 0;
+    height: 100%;
+}
+.company article{
+    padding: 0 10px;
+}
+.company article p {   
+    padding-bottom: 30px;
+    font-size: 1.8em;
+    font-weight: 100;
+}
+.icon {
+    padding-top: 50px;
+}
+.icon p {
+    padding: 30px 10px;    
+    font-size: 1.6em;
+    color: #666666;
+}
+/*Mission*/
+.mission {
+    height: 100%;
+    background: #FFFFFF url(../images/bg-mission.jpg) no-repeat top center;
+}
+.mission h3:before{
+    content: url(/images/icon-mission.png);
+    position: absolute;
+    left: 47.5%;
+    top: 8%;
+}
+.mission .list {
+    padding: 45px 0 62px 0;
+}
+.mission ul li {
+    padding: 0 10px 40px 10px;
+    text-align: left;
+    font-size: 1.8em;
+}
+/*Partners*/
+.partners {
+    margin-top: 215px;
+    padding: 135px 0;    
+    height: 100%;
+    background: #FFFFFF url(../images/bg-map.jpg) no-repeat top center;
+}
+.partners h3 {
+    margin-top: -225px;
+    padding: 0;
+}
+.partners h3:before {
+    content: url(../images/icon-partners.png);
+    position: absolute;
+    left: 47.5%;
+    top: -11%;
+}
+.logo_partners {    
+    padding-top: 150px;
+}
+.partners p {
+    padding: 120px 30px 30px 30px;
+    font-size: 1.8em;
+}
+/*Benefits*/
+.benefits {
+    height: 100%;
+    background: #FFFFFF url(../images/bg-choice.jpg) no-repeat top center;
+}
+.benefits h3:before {
+    content: url(/images/icon-choice.png);
+    position: absolute;
+    left: 47.5%;
+    top: 7%;
+}
+.benefits ul {
+    padding: 65px 0 70px 200px;
+    text-align: left;
+}
+.benefits li {        
+    margin-bottom: 15px;
+    font-size: 1.8em;
+}
+.benefits li:before {
+    content: url(../images/icon-plus.png);
+    position: absolute;
+    left: -51px;
+}
+.benefits p {
+    padding-bottom: 101px;
+    font-size: 1.8em;
+}
+
+/*ID'S*/
+#yandex {
+    margin-right: -200px;
+}
+
+#google {
+    margin-left: -200px;
+}
+
+/*MEDIA*/
+@media (max-width: 768px) {
+    .mission, .benefits, .partners, footer {
+        padding-top: 10px;
+        padding-bottom: 0;
+    }
+    .mission h3, .benefits h3, footer h3 {
+        margin: 10px 5px 0 5px;
+        padding-top: 0;
+        background: rgba(204, 224, 236, 0.5);
+    }    
+    h3:before{
+        display: none;
+    }
+
+    /*Header*/
+    nav ul li {
+        display: block;
+        margin-bottom: 5px;
+    }
+    nav ul {
+        padding: 25px 0 0 0;
+    }
+    .main_text{
+        padding: 35px 20px 150px 20px;
+        line-height: 50px;
+    }
+    .main_text h6{
+        margin-top: 25px;
+        line-height: 35px;
+    }
+    header h6:before {
+        width: 50%;
+        top: -10%;
+        left: 25%;
+    }
+
+    /*About company*/    
+    .company {
+        padding: 50px 0 20px 0;
+    }
+    .company article {
+        padding: 0 20px;
+    }
+    .icon {
+        padding-top: 30px;
+    }
+    .icon p {
+        padding-top: 10px;
+        padding-bottom: 50px;        
+    }
+    
+    /*Mission*/
+    .mission .list {
+        padding-top: 20px;        
+    }
+    .mission ul li {
+        padding-bottom: 14px;
+        line-height: 19px;
+    }
+
+    /*Partners*/
+    .partners {
+        margin-top: 115px;
+    }
+    .partners h3{
+        margin: -125px 25px 0 25px;
+        padding-top: 0;
+        background: rgba(204, 224, 236, 0.5);
+    }    
+    .logo_partners {
+        padding-top: 40px;
+    }
+    #yandex, #google {
+        margin: 0;
+    }
+    .partners p {
+        padding: 40px 20px;
+    }
+
+    /*Benefits*/
+    .benefits .list {
+        padding: 35px 20px 10px 75px;
+        text-align: left;
+    }
+    .benefits li {        
+        margin-bottom: 5px;
+        font-size: 1.8em;
+    }    
+    .benefits p {
+        padding: 20px;
+        font-size: 1.8em;
+    }
+
+    /*Footer*/
+    .contacts {
+        text-align: center;
+    }
+    .contacts, footer h6, .end {
+        padding-top: 15px;
+    }
+    .end {
+        padding-bottom: 50px;
+    }
+}
